@@ -1,16 +1,47 @@
-# React + Vite
+# JobStride
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An job tracking application site built with React JS.
 
-Currently, two official plugins are available:
+JobStride is a full stack project that was created to make job application tracking easier, with a focus on managing different applications from across different sites 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+-Dashboard to track applications
+-Filtering different Job applications
+-Role infomation and details
+-Node Api intergration
+-Client-side catching
+-Loading states
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built with
+-HTML
+-CSS
+-Javascript
+-React
+-React Router v19
+- Node  / Express JS
 
-## Expanding the ESLint configuration
+## What I learned
+This project helped me improve my understanding of:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+-Asynchonous Javascript
+-Fetching and processing data
+-Client-side state and caching
+-Building,  filtering and functionality
+-Responsive Ui development
+-Using React Router to build client side routing
+-Bulding REST APIs with NodeJS
+-Auth with Express sessions
+-Password Hashing with bcrypt
+-Using SQL and PostgreSQl
+
+# Status
+
+JobStride is  currently a work in progress. The current
+version is functional, but there are still features and improvements planned.
+
+## Author
+
+Github: [@nhloniphoStack]  (https://github.com/NhloniphoStack)
