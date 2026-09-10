@@ -4,7 +4,7 @@ import {  useRef, useState, useContext } from "react";
 import close from '../assets/close.svg'
 import profile from '../assets/profile.svg'
 import { userContext } from "./AuthProvider.jsx";
-import { Footer } from "../Components/Footer.jsx";
+
 
 export function UserLayout() {
     const [showNav, setShowNav] = useState(false)
@@ -67,7 +67,7 @@ export function UserLayout() {
             </div>
         </div>}
         <Outlet />
-        <Footer />
+      
         </>
     )
 }

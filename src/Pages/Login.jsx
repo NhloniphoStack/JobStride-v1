@@ -74,7 +74,7 @@ export function Login(){
                             {status !== 'idle' &&
                             <div className="loader">
                             </div>}
-                             {status === 'submitting' ? 'Signing in' : 'Login'}
+                             {status === 'submitting' ? 'Loggin in' : 'Login'}
                         </button>
                        {error &&
                         <div className="error-container">

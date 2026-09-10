@@ -34,7 +34,7 @@ export function Applications(){
 
     function advancedFilter(status, search){
 
-       return jobsData.filter(job => {
+       return jobsData?.filter(job => {
         return ( 
             (!status || job.status === status) && 
             (!search || job.company.toLowerCase().startsWith(search.toLowerCase()))

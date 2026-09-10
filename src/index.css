@@ -1185,3 +1185,30 @@ footer span{
   color: rgb(145, 144, 144);
 }
 
+
+.not-found{
+   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.not-found a{
+    text-decoration: none;
+    color: white;
+    background-color: #3e46b4 ;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+    text-align: center;
+
+    
+}
+
+.notfound-section{
+  width: min(100% - 2rem, 1200px);
+}

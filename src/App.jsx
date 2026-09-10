@@ -25,8 +25,11 @@ import { editAction } from "./Pages/EditApplication.jsx"
 import { Signup } from "./Pages/Signup.jsx"
 import { signupAction } from "./Pages/Signup.jsx"
 import { About } from "./Pages/About.jsx"
+import { NotFound } from "./Pages/NotFound.jsx"
+
 const router = createBrowserRouter(createRoutesFromElements(
   <>
+    <Route path="*" element={<NotFound />} />
     <Route path="/" element={<Login />} action={loginAction}/>
          <Route path="" element={<AuthProvider />} loader={authLoader}>
          <Route path="" element={<UserLayout />}>
