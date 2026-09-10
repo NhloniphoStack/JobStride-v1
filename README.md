@@ -8,8 +8,10 @@ JobStride is a full stack project that was created to make job application track
 
 -Dashboard to track applications
 -Filtering different Job applications
--Role infomation and details
--Node Api intergration
+-Job information analysis 
+-Adding new applications
+-Managing and Editing applications
+-Recent application tracking
 -Client-side catching
 -Loading states
 
@@ -39,7 +41,7 @@ This project helped me improve my understanding of:
 
 # Status
 
-JobStride is  currently a work in progress. The current
+JobStride is currently a work in progress. The current
 version is functional, but there are still features and improvements planned.
 
 ## Author
