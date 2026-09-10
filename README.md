@@ -1,6 +1,6 @@
 # JobStride
 
-A job tracking application site built with React JS.
+A job tracking application site built with React & Node JS.
 
 JobStride is a full stack project that was created to make job application tracking easier, with a focus on managing different applications from across different sites 
 
